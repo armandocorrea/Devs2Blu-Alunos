@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/10/04 21:23:32.000.661,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/04 21:24:53.000.865,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/04 21:25:29.000.037,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\alinescholl\Documents\Aline-Devs2Blu\Aline\exercicio01\nadador.dfm</Transaction>
+    <Transaction>2022/10/04 21:25:29.000.037,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\alinescholl\Documents\Aline-Devs2Blu\Aline\exercicio01\nadador.pas</Transaction>
+    <Transaction>2022/10/04 21:26:40.000.255,C:\Users\alinescholl\Documents\Aline-Devs2Blu\Aline\exercicio01\nadador.dfm=C:\Users\alinescholl\Documents\Aline-Devs2Blu\Aline\exercicio34\nadador.dfm</Transaction>
+    <Transaction>2022/10/04 21:26:40.000.255,C:\Users\alinescholl\Documents\Aline-Devs2Blu\Aline\exercicio01\nadador.pas=C:\Users\alinescholl\Documents\Aline-Devs2Blu\Aline\exercicio34\nadador.pas</Transaction>
+    <Transaction>2022/10/04 21:55:37.000.225,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\alinescholl\Documents\Aline-Devs2Blu\Aline\exercicio34\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

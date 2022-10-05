@@ -8,6 +8,7 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
 
 type
+  TTipo = (tpInfantilA, tpInfantilB, tpJuvenilA, tpJuvenialB, tpSenior);
   TForm1 = class(TForm)
     label1: TLabel;
     edtIdade: TEdit;
@@ -38,7 +39,7 @@ procedure TForm1.DescobrirFaixaEtária;
 var
   xIdade: Integer;
 begin
-  xIdade := StrToInt(edtIdade.Text);
+  xIdade := StrToIntDef(edtIdade.Text, 0);
 
   if (xIdade >= 5) and (xIdade <= 7) then
     labelResultado.Caption := 'Infantil A'

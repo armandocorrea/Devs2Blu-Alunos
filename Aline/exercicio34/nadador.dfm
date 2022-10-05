@@ -29,7 +29,7 @@ object Form1: TForm1
   object labelResultado: TLabel
     Left = 104
     Top = 200
-    Width = 29
+    Width = 5
     Height = 19
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -42,12 +42,13 @@ object Form1: TForm1
     Left = 104
     Top = 72
     Width = 185
-    Height = 33
+    Height = 27
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
     Font.Name = 'Tahoma'
     Font.Style = []
+    NumbersOnly = True
     ParentFont = False
     TabOrder = 0
   end
