@@ -45,7 +45,7 @@ begin
        lblcategoria.caption :=  'Juvenil B'
    else if (xidade >= 18)and (xidade <= 25) then
        lblcategoria.caption:=  'Sênior'
-   else if (xidade <= 4)and (xidade >= 26) then
+   else if (xidade <= 4)or (xidade >= 26) then
        lblcategoria.caption :=  'Idade fora da falxa'
 
 
