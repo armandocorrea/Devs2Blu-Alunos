@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/23 19:48:55.000.922,=C:\Users\murilobatista\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/05 19:44:49.454,=C:\Users\murilobatista\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/05 19:45:07.154,C:\Users\murilobatista\Documents\Devs2Blu-Alunos\MuriloBatista\Exercicios\AreaTriangulo\uFrmPrincipal.dfm=C:\Users\murilobatista\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/10/05 19:45:07.154,C:\Users\murilobatista\Documents\Devs2Blu-Alunos\MuriloBatista\Exercicios\AreaTriangulo\uFrmPrincipal.pas=C:\Users\murilobatista\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/05 19:45:16.344,C:\Users\murilobatista\Documents\Devs2Blu-Alunos\MuriloBatista\Exercicios\AreaTriangulo\ExercicioAreaTriangulo.dproj=C:\Users\murilobatista\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
