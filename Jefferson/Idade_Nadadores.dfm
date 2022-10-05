@@ -92,61 +92,61 @@ object Form1: TForm1
     ParentFont = False
   end
   object LBS_InfA: TLabel
-    Left = 24
+    Left = 8
     Top = 196
-    Width = 6
-    Height = 23
+    Width = 3
+    Height = 13
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -19
+    Font.Height = -11
     Font.Name = 'Tahoma'
     Font.Style = []
     ParentFont = False
   end
   object LBS_InfB: TLabel
-    Left = 168
+    Left = 155
     Top = 196
-    Width = 6
-    Height = 23
+    Width = 3
+    Height = 13
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -19
+    Font.Height = -11
     Font.Name = 'Tahoma'
     Font.Style = []
     ParentFont = False
   end
   object LBS_JuvA: TLabel
-    Left = 312
+    Left = 297
     Top = 196
-    Width = 6
-    Height = 23
+    Width = 3
+    Height = 13
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -19
+    Font.Height = -11
     Font.Name = 'Tahoma'
     Font.Style = []
     ParentFont = False
   end
   object LBS_JuvB: TLabel
-    Left = 480
+    Left = 449
     Top = 196
-    Width = 6
-    Height = 23
+    Width = 3
+    Height = 13
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -19
+    Font.Height = -11
     Font.Name = 'Tahoma'
     Font.Style = []
     ParentFont = False
   end
   object LBS_Sen: TLabel
-    Left = 632
+    Left = 591
     Top = 196
-    Width = 6
-    Height = 23
+    Width = 3
+    Height = 13
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -19
+    Font.Height = -11
     Font.Name = 'Tahoma'
     Font.Style = []
     ParentFont = False
