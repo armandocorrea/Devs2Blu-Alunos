@@ -1,0 +1,198 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 282
+  ClientWidth = 723
+  Color = clWhite
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object LB_Titulo: TLabel
+    Left = 160
+    Top = 8
+    Width = 440
+    Height = 35
+    Caption = 'Classifica'#231#227'o Et'#225'ria dos Nadadores'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -29
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LB_InfA: TLabel
+    Left = 24
+    Top = 72
+    Width = 92
+    Height = 23
+    Caption = 'Infantil "A"'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LB_InfB: TLabel
+    Left = 168
+    Top = 72
+    Width = 92
+    Height = 23
+    Caption = 'Infantil "B"'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LB_JuvA: TLabel
+    Left = 320
+    Top = 72
+    Width = 90
+    Height = 23
+    Caption = 'Juvenil "A"'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LB_JuvB: TLabel
+    Left = 480
+    Top = 72
+    Width = 90
+    Height = 23
+    Caption = 'Juvenil "B"'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LB_Sen: TLabel
+    Left = 632
+    Top = 72
+    Width = 53
+    Height = 23
+    Caption = 'S'#234'nior'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LBS_InfA: TLabel
+    Left = 24
+    Top = 196
+    Width = 6
+    Height = 23
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LBS_InfB: TLabel
+    Left = 168
+    Top = 196
+    Width = 6
+    Height = 23
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LBS_JuvA: TLabel
+    Left = 312
+    Top = 196
+    Width = 6
+    Height = 23
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LBS_JuvB: TLabel
+    Left = 480
+    Top = 196
+    Width = 6
+    Height = 23
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LBS_Sen: TLabel
+    Left = 632
+    Top = 196
+    Width = 6
+    Height = 23
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object MMB_INFA: TMemo
+    Left = 8
+    Top = 101
+    Width = 121
+    Height = 89
+    TabOrder = 0
+  end
+  object MMB_INFB: TMemo
+    Left = 155
+    Top = 101
+    Width = 121
+    Height = 89
+    TabOrder = 1
+  end
+  object MMB_JuvA: TMemo
+    Left = 297
+    Top = 101
+    Width = 121
+    Height = 89
+    TabOrder = 2
+  end
+  object MMB_JuvB: TMemo
+    Left = 449
+    Top = 101
+    Width = 121
+    Height = 89
+    TabOrder = 3
+  end
+  object MMB_Sen: TMemo
+    Left = 591
+    Top = 101
+    Width = 121
+    Height = 89
+    TabOrder = 4
+  end
+  object BT: TButton
+    Left = 581
+    Top = 249
+    Width = 131
+    Height = 25
+    Caption = 'Iniciar Registro Atletas'
+    TabOrder = 5
+    OnClick = BTClick
+  end
+end
