@@ -1,0 +1,57 @@
+unit uFrmPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TOpcaoClassificacaoIdade = (opInfantil_A, opInfantil_B,
+  opJuvenil_A, opJuvenil_B, opSenior);
+
+  TForm1 = class(TForm)
+    lb_tituloClassificacao: TLabel;
+    edt_idadeUsuario: TEdit;
+    Button1: TButton;
+    lb_idade: TLabel;
+    lb_listarClassificacao: TLabel;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+    procedure classificacaoIdade;
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.classificacaoIdade;
+var
+  xIdade : Integer;
+
+const
+  c_infantil_A = 5; //5-7 anos;
+  c_infantil_B = 8; //8-10 anos;
+  c_juvenil_A = 11; //11-13 anos;
+  c_juvenil_B = 14; //14-17 anos;
+  c_senior = 18; //18-25 anos;
+
+begin
+  xIdade := StrToInt (edt_idadeUsuario.Text);
+
+
+
+end;
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  classificacaoIdade;
+end;
+
+end.
