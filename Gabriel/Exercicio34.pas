@@ -46,7 +46,7 @@ begin
     18..23:
       ShowMessage('Nadador classificado como: Senior');
     else
-      ShowMessage('Idade fora da faia etária');
+      ShowMessage('Idade fora da faixa etária');
 
   end;
 end;
