@@ -2,7 +2,8 @@ program Project1;
 
 uses
   Vcl.Forms,
-  ex34 in 'ex34.pas' {Form2};
+  Unit2 in 'Unit2.pas' {Form2},
+  UTriangulo in 'UTriangulo.pas';
 
 {$R *.res}
 
