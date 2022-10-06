@@ -2,8 +2,8 @@ object frmCategoria: TfrmCategoria
   Left = 0
   Top = 0
   Caption = 'CATEGORIA NADADOR'
-  ClientHeight = 277
-  ClientWidth = 473
+  ClientHeight = 264
+  ClientWidth = 405
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
