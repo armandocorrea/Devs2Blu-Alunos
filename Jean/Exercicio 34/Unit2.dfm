@@ -34,9 +34,9 @@ object Form2: TForm2
     Caption = 'O nadador est'#225' na categoria'
   end
   object lblcategoria: TLabel
-    Left = 136
+    Left = 120
     Top = 104
-    Width = 3
+    Width = 19
     Height = 13
   end
   object btmexecutar: TButton

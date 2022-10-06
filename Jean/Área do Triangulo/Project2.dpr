@@ -1,8 +1,9 @@
-program exercicio34Project2;
+program Project2;
 
 uses
   Vcl.Forms,
-  Unit2 in 'Unit2.pas' {Form2};
+  Unit2 in 'Unit2.pas' {Form2},
+  UtrianguloUnit1 in 'UtrianguloUnit1.pas';
 
 {$R *.res}
 
