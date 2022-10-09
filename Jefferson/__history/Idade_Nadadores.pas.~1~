@@ -1,0 +1,41 @@
+unit Idade_Nadadores;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    LB_Titulo: TLabel;
+    LB_InfA: TLabel;
+    LB_InfB: TLabel;
+    LB_JuvA: TLabel;
+    LB_JuvB: TLabel;
+    LB_Sen: TLabel;
+    MMB_INFA: TMemo;
+    MMB_INFB: TMemo;
+    MMB_JuvA: TMemo;
+    MMB_JuvB: TMemo;
+    MMB_Sen: TMemo;
+    LBS_InfA: TLabel;
+    LBS_InfB: TLabel;
+    LBS_JuvA: TLabel;
+    LBS_JuvB: TLabel;
+    LBS_Sen: TLabel;
+    BT: TButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+end.
