@@ -1,0 +1,87 @@
+unit uFrmPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    lb_tituloClassificacao: TLabel;
+    edt_idadeUsuario: TEdit;
+    Button1: TButton;
+    lb_idade: TLabel;
+    lb_listarClassificacao: TLabel;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+    procedure classificacaoIdade;
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.classificacaoIdade;
+var
+  xIdade : Integer;
+  I: Integer;
+
+const
+  c_infantil_A = 5; //5-7 anos;
+  c_infantil_B = 8; //8-10 anos;
+  c_juvenil_A = 11; //11-13 anos;
+  c_juvenil_B = 14; //14-17 anos;
+  c_senior = 18; //18-25 anos;
+  c_maxSenior = 25; //Máxima idade sênior;
+
+begin
+  xIdade := StrToInt (edt_idadeUsuario.Text);
+
+  if (xIdade >= c_infantil_A) and (xIdade < c_infantil_B) then
+  begin
+    lb_listarClassificacao.Caption := ('Infantil A!');
+  end
+
+  else if (xIdade >= c_infantil_B) and (xIdade < c_juvenil_A) then
+  begin
+    lb_listarClassificacao.Caption := ('Infantil B!');
+  end
+
+  else if (xIdade >= c_juvenil_A) and (xIdade < c_juvenil_B) then
+  begin
+    lb_listarClassificacao.Caption := ('Juvenil A!');
+  end
+
+  else if (xIdade >= c_juvenil_B) and (xIdade < c_senior) then
+  begin
+    lb_listarClassificacao.Caption := ('Juvenil B!');
+  end
+
+  else if (xIdade >= c_senior) and (xIdade <= c_maxSenior) then
+  begin
+    lb_listarClassificacao.Caption := ('Sênior!');
+  end
+
+  else
+  begin
+    lb_listarClassificacao.Caption := ('Idade fora da faixa etária!');
+  end;
+
+
+
+
+end;
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  classificacaoIdade;
+end;
+
+end.
