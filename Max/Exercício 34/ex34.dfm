@@ -1,0 +1,96 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 410
+  ClientWidth = 318
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lbTittle: TLabel
+    AlignWithMargins = True
+    Left = 3
+    Top = 30
+    Width = 312
+    Height = 23
+    Margins.Top = 30
+    Align = alTop
+    Alignment = taCenter
+    Caption = 'Classificar nadador'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    ExplicitWidth = 157
+  end
+  object lbIdade: TLabel
+    AlignWithMargins = True
+    Left = 40
+    Top = 86
+    Width = 238
+    Height = 13
+    Margins.Left = 40
+    Margins.Top = 30
+    Margins.Right = 40
+    Align = alTop
+    Alignment = taCenter
+    Caption = 'Informe a idade do nadador'
+    ExplicitWidth = 134
+  end
+  object lbResult: TLabel
+    AlignWithMargins = True
+    Left = 0
+    Top = 234
+    Width = 318
+    Height = 167
+    Margins.Left = 0
+    Margins.Top = 50
+    Margins.Right = 0
+    Align = alTop
+    Alignment = taCenter
+    AutoSize = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    ExplicitLeft = 3
+    ExplicitWidth = 312
+  end
+  object edtIdade: TEdit
+    AlignWithMargins = True
+    Left = 60
+    Top = 112
+    Width = 198
+    Height = 21
+    Margins.Left = 60
+    Margins.Top = 10
+    Margins.Right = 60
+    Align = alTop
+    Alignment = taCenter
+    TabOrder = 0
+  end
+  object btnCalculate: TButton
+    AlignWithMargins = True
+    Left = 100
+    Top = 156
+    Width = 118
+    Height = 25
+    Margins.Left = 100
+    Margins.Top = 20
+    Margins.Right = 100
+    Align = alTop
+    Caption = 'Calcular'
+    TabOrder = 1
+    OnClick = btnCalculateClick
+  end
+end
