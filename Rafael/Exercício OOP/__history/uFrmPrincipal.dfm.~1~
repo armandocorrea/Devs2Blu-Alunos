@@ -1,0 +1,216 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 321
+  ClientWidth = 354
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 131
+    Top = 0
+    Width = 94
+    Height = 19
+    Caption = 'Triangulo X'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 131
+    Top = 104
+    Width = 94
+    Height = 19
+    Caption = 'Triangulo Y'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 24
+    Top = 65
+    Width = 12
+    Height = 16
+    Caption = 'a:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 121
+    Top = 67
+    Width = 12
+    Height = 16
+    Caption = 'b:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 227
+    Top = 65
+    Width = 11
+    Height = 16
+    Caption = 'c:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 24
+    Top = 145
+    Width = 12
+    Height = 16
+    Caption = 'a:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 121
+    Top = 147
+    Width = 12
+    Height = 16
+    Caption = 'b:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 227
+    Top = 145
+    Width = 11
+    Height = 16
+    Caption = 'c:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 24
+    Top = 232
+    Width = 113
+    Height = 16
+    Caption = 'Triangulo X '#193'rea:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label10: TLabel
+    Left = 24
+    Top = 254
+    Width = 113
+    Height = 16
+    Caption = 'Triangulo Y '#193'rea:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label11: TLabel
+    Left = 24
+    Top = 276
+    Width = 4
+    Height = 16
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object edtX1: TEdit
+    Left = 48
+    Top = 64
+    Width = 57
+    Height = 21
+    TabOrder = 0
+  end
+  object edtX2: TEdit
+    Left = 152
+    Top = 64
+    Width = 57
+    Height = 21
+    TabOrder = 1
+  end
+  object edtX3: TEdit
+    Left = 256
+    Top = 64
+    Width = 57
+    Height = 21
+    TabOrder = 2
+  end
+  object edtY1: TEdit
+    Left = 48
+    Top = 144
+    Width = 57
+    Height = 21
+    TabOrder = 3
+  end
+  object edtY2: TEdit
+    Left = 152
+    Top = 144
+    Width = 57
+    Height = 21
+    TabOrder = 4
+  end
+  object edtY3: TEdit
+    Left = 256
+    Top = 144
+    Width = 57
+    Height = 21
+    TabOrder = 5
+  end
+  object btnCalcular: TButton
+    Left = 88
+    Top = 184
+    Width = 75
+    Height = 25
+    Caption = 'Calcular'
+    TabOrder = 6
+  end
+  object Button2: TButton
+    Left = 200
+    Top = 184
+    Width = 75
+    Height = 25
+    Caption = 'Calcular OOP'
+    TabOrder = 7
+  end
+end

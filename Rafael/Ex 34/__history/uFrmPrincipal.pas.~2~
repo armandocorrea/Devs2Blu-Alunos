@@ -1,0 +1,39 @@
+unit uFrmPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TCategoria = (InfantilA, InfantilB, JuvenilA, JuvenilB);
+  TForm1 = class(TForm)
+    Label1: TLabel;
+    edtIdade: TEdit;
+    btnGravar: TButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+{34. Elabore um algoritmo que, dada a idade de um nadador.
+Classifique-o em uma das seguintes categorias:
+  a. Infantil A = 5 - 7 anos;
+  b. Infantil B = 8 - 10 anos;
+  c. Juvenil A = 11- 13 anos;
+  d. Juvenil B = 14 - 17 anos;
+  e. Sênior = 18 - 25 anos.
+Apresentar mensagem “idade fora da faixa etária” quando for outro
+ ano não contemplado;}
+
+
+end.
