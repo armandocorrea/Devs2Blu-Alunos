@@ -1,0 +1,51 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Exercicio 34'
+  ClientHeight = 254
+  ClientWidth = 329
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 64
+    Top = 8
+    Width = 201
+    Height = 23
+    Caption = 'IDADE DO NADADOR'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 96
+    Top = 69
+    Width = 138
+    Height = 13
+    Caption = 'O nadador est'#225' na categoria'
+  end
+  object edtidade: TEdit
+    Left = 96
+    Top = 88
+    Width = 121
+    Height = 21
+    TabOrder = 0
+  end
+  object btmexecutar: TButton
+    Left = 120
+    Top = 128
+    Width = 75
+    Height = 25
+    Caption = 'Executar'
+    TabOrder = 1
+  end
+end
