@@ -14,12 +14,11 @@ type
       function GetIdade: Byte;
       procedure SetCPF(const Value: String);
       procedure SetIdade(const Value: Byte);
+      function CPF_Valido (aCPF : String) : Boolean;
     public
       constructor Create(aNome : String; aCPF : String; aIdade : Byte; aEndereco : String = '');
-      function CPF_Valido : Boolean;
       property CPF : String read GetCPF write SetCPF;
       property idade : Byte read GetIdade write SetIdade;
-
   end;
 
 implementation
@@ -29,7 +28,7 @@ uses
 
 { TPessoaFisica }
 
-function TPessoaFisica.CPF_Valido: Boolean;
+function TPessoaFisica.CPF_Valido (aCPF : String): Boolean;
 var
   xAux, xResult : Double;
   xIsFirstDigitValid, xIsSecondDigitValid : Boolean;
@@ -62,6 +61,8 @@ end;
 constructor TPessoaFisica.Create(aNome, aCPF: String; aIdade: Byte;
   aEndereco: String = '');
 begin
+  if (aCPF.Length <> 11) or (not CPF_Valido()) then
+
   FCPF := aCPF;
   FIdade := aIdade;
   nome := aNome;

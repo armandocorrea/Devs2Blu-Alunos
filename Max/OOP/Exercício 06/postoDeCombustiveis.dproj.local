@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/12 20:47:44.000.693,=C:\Users\mmfurtado\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/09/21 20:12:01.000.895,=C:\Users\mmfurtado\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/10/17 18:51:06.623,=C:\Users\mmfurtado\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/10/17 18:51:39.049,C:\Users\mmfurtado\Documents\Devs2Blu-Prof\Max\OOP\Exercício 06\Abastecer.dfm=C:\Users\mmfurtado\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2022/10/17 18:51:39.049,C:\Users\mmfurtado\Documents\Devs2Blu-Prof\Max\OOP\Exercício 06\Abastecer.pas=C:\Users\mmfurtado\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/10/17 18:51:46.051,C:\Users\mmfurtado\Documents\Devs2Blu-Prof\Max\OOP\Exercício 06\abastecimetno.dproj=C:\Users\mmfurtado\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/10/17 18:51:54.017,C:\Users\mmfurtado\Documents\Devs2Blu-Prof\Max\OOP\Exercício 06\abastecimento.dproj=C:\Users\mmfurtado\Documents\Devs2Blu-Prof\Max\OOP\Exercício 06\abastecimetno.dproj</Transaction>
+    <Transaction>2022/10/17 18:52:08.778,=C:\Users\mmfurtado\Documents\Devs2Blu-Prof\Max\OOP\Exercício 06\Unit1.pas</Transaction>
+    <Transaction>2022/10/17 18:52:25.540,C:\Users\mmfurtado\Documents\Devs2Blu-Prof\Max\OOP\Exercício 06\UBombaCombustivel.pas=C:\Users\mmfurtado\Documents\Devs2Blu-Prof\Max\OOP\Exercício 06\Unit1.pas</Transaction>
+    <Transaction>2022/10/17 19:33:47.376,C:\Users\mmfurtado\Documents\Devs2Blu-Prof\Max\OOP\Exercício 06\postoDeCombustiveis.dproj=C:\Users\mmfurtado\Documents\Devs2Blu-Prof\Max\OOP\Exercício 06\abastecimento.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
