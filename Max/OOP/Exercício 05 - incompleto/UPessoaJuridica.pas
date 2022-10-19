@@ -14,9 +14,9 @@ type
       function GetIE: String;
       procedure SetCNPJ(const Value: String);
       procedure SetIE(const Value: String);
+      function CNPJ_Valido : Boolean;
     public
       constructor Create(aNome : String; aCNPJ : String; aIE : String; aEndereco: String = '');
-      function CNPJ_Valido : Boolean;
       property CNPJ : String read GetCNPJ write SetCNPJ;
       property IE : String read GetIE write SetIE;
   end;
@@ -34,7 +34,7 @@ constructor TPessoaJuridica.Create(aNome : String; aCNPJ : String; aIE : String;
 begin
   FCNPJ := aCNPJ;
   FIE := aIE;
-  nome := nome;
+  nome := aNome;
   endereco := aEndereco;
 end;
 

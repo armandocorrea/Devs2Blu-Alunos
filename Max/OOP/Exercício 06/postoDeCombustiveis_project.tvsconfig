@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<TgConfig Version="3" SubLevelDisabled="False">
+  <Option Name="namespaceFolder.UBombaCombustivel" Type="System.String" Value="UBombaCombustivel" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.Abastecer" Type="System.String" Value="Abastecer" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.postoDeCombustiveis" Type="System.String" Value="postoDeCombustiveis" Category="General" IsBrowsable="False" />
+</TgConfig>

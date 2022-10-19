@@ -12,9 +12,9 @@ type
       procedure SetEndereco(const Value: String);
       procedure SetNome(const Value: String);
     public
-      function registrarPessoa : Boolean; virtual; abstract;
+      procedure registrarPessoa; virtual; abstract;
 
-      constructor Create(aNome : String; aEndereco : String = '');
+//      constructor Create(aNome : String; aEndereco : String = '');
       property nome : String read GetNome write SetNome;
       property endereco : String read GetEndereco write SetEndereco;
   end;
@@ -23,11 +23,11 @@ implementation
 
 { TPessoa }
 
-constructor TPessoa.Create(aNome, aEndereco: String);
-begin
-  FNome := aNome;
-  FEndereco := aEndereco;
-end;
+//constructor TPessoa.Create(aNome : String; aEndereco : String = '');
+//begin
+//  FNome := aNome;
+//  FEndereco := aEndereco;
+//end;
 
 function TPessoa.GetEndereco: String;
 begin

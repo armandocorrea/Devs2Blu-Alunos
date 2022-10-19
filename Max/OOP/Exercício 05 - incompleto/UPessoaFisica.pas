@@ -39,20 +39,20 @@ begin
   xIsSecondDigitValid := False;
   xAux := 0;
   for I := 0 to 8 do
-    xAux := xAux + StrToInt(CPF[I]) * (10 - I);
+    xAux := xAux + StrToInt(aCPF[I + 1]) * (10 - I);
 
   xResult := (Trunc(xAux) * 10) mod 11;
 
-  if xResult.ToString = CPF[9] then
+  if xResult.ToString = aCPF[9 + 1] then
     xIsFirstDigitValid := True;
 
   xAux := 0;
   for I := 0 to 9 do
-    xAux := xAux + StrToInt(CPF[I]) * (11 - I);
+    xAux := xAux + StrToInt(aCPF[I + 1]) * (11 - I);
 
   xResult := (Trunc(xAux) * 10) mod 11;
 
-  if xResult.ToString = CPF[10] then
+  if xResult.ToString = aCPF[10 + 1] then
     xIsSecondDigitValid := True;
 
   Result := xIsFirstDigitValid and xIsSecondDigitValid;
@@ -61,8 +61,8 @@ end;
 constructor TPessoaFisica.Create(aNome, aCPF: String; aIdade: Byte;
   aEndereco: String = '');
 begin
-  if (aCPF.Length <> 11) or (not CPF_Valido()) then
-
+  if (aCPF.Length <> 11) or (not CPF_Valido(aCPF)) then
+    raise Exception.Create('CPF inválido!');
   FCPF := aCPF;
   FIdade := aIdade;
   nome := aNome;
